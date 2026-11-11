@@ -1,0 +1,11 @@
+Objetos del sandbox de interacción (UT2, bloque 2) - Módulo 5051 Realidad virtual y realidad aumentada
+IES Ingeniero de la Cierva - curso 2026-27
+
+Pistola  - "Glock" de CreativeTrio, Poly Pizza (https://poly.pizza/m/0nDixXrcs0). Licencia CC0 1.0 (dominio público).
+Escopeta - "Shotgun" de CreativeTrio, Poly Pizza (https://poly.pizza/m/CkSFaW2d7m). Licencia CC0 1.0 (dominio público).
+           Ambos modelos convertidos de GLB a FBX, escalados a tamaño real (pistola 19 cm, escopeta 1 m)
+           y orientados con el cañón hacia +Z y la parte superior hacia +Y.
+Linterna - Modelo del profesor del módulo, hecho con primitivas de Unity.
+
+Los prefabs solo traen modelo, material y colisionadores (y la luz en la linterna).
+No tienen Rigidbody, XR Interaction Toolkit ni scripts: esa parte la construye el alumnado.
