@@ -6,6 +6,8 @@ Escopeta - "Shotgun" de CreativeTrio, Poly Pizza (https://poly.pizza/m/CkSFaW2d7
            Ambos modelos convertidos de GLB a FBX, escalados a tamaño real (pistola 19 cm, escopeta 1 m)
            y orientados con el cañón hacia +Z y la parte superior hacia +Y.
 Linterna - Modelo del profesor del módulo, hecho con primitivas de Unity.
+Canasta  - Modelos de canasta y red (autor: Mario Paradiso, "BasketballRing"). ORIGEN Y LICENCIA PENDIENTES DE CONFIRMAR.
+Pelota   - Esfera de Unity con textura de balón (textura: ORIGEN Y LICENCIA PENDIENTES DE CONFIRMAR).
 
-Los prefabs solo traen modelo, material y colisionadores (y la luz en la linterna).
+Los prefabs solo traen modelo, material y colisionadores (la linterna, además, su luz; la canasta, su confeti).
 No tienen Rigidbody, XR Interaction Toolkit ni scripts: esa parte la construye el alumnado.
