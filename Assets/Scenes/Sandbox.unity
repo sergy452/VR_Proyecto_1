@@ -4335,6 +4335,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 6733304759875133159, guid: 48c8bc52be354c74fbf00208d512b611, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1570712211}
+    - targetCorrespondingSourceObject: {fileID: 6733304759875133159, guid: 48c8bc52be354c74fbf00208d512b611, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1570712217}
   m_SourcePrefab: {fileID: 100100000, guid: 48c8bc52be354c74fbf00208d512b611, type: 3}
 --- !u!1 &1570712210 stripped
 GameObject:
@@ -4498,6 +4501,20 @@ Rigidbody:
   m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 2
+--- !u!114 &1570712217
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1570712210}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7fb7f40ec0be52f449ad7742a3e01615, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Reaparicion
+  puntoDeInicio: {fileID: 1602674824}
+  alturaMinima: -2
 --- !u!1 &1583828266 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3312628150132862403, guid: 52987b0d26f869e469b381ac270c5d7e, type: 3}
@@ -4793,6 +4810,37 @@ MonoBehaviour:
   dispersion: 0
   cadencia: 0.3
   sonido: {fileID: 1583828278}
+--- !u!1 &1602674823
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1602674824}
+  m_Layer: 0
+  m_Name: InicioPelota
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1602674824
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1602674823}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 4.03, y: 0.049, z: 2.99}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!43 &1649293763
 Mesh:
   m_ObjectHideFlags: 0
@@ -9055,3 +9103,4 @@ SceneRoots:
   - {fileID: 313075367}
   - {fileID: 804145808}
   - {fileID: 1298622216}
+  - {fileID: 1602674824}
